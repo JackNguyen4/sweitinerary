@@ -1,0 +1,94 @@
+
+header {
+    width: 100%;
+    height: 830px;
+    background-color: lightgray;
+}
+
+footer {
+    background-color: darkblue;
+    color: white;
+    height: 100px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.foot {
+    color: white;
+    text-decoration: none;
+}
+
+.foot:hover {
+    color:white;
+}
+
+.typed {
+    overflow: hidden;
+    border-right: .15em solid white;
+    white-space: nowrap;
+    font-size: 1.6rem;
+    width: 0;
+    animation: 
+        typing 0.8s steps(40, end) forwards,
+        blinking 1s infinite;
+}
+
+@keyframes typing {
+    from {width: 0%}
+    to {width: 100%}
+}
+
+@keyframes blinking {
+    from { border-color: transparent }
+    to { border-color: transparent; }
+}
+
+.welcome {
+    text-align: center;
+}
+
+.bg {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.raff {
+    width: 20%;
+}
+
+.box {
+    position: absolute;
+    text-align: center;
+    border: 2px solid darkblue;
+    background-color: rgba(211, 211, 211, 0.695);
+    padding: 100px 100px;
+    margin-top: -780px;
+    margin-left: 245px;
+}
+
+@media all and (max-width: 980px) {
+
+    header {
+        width: 100%;
+        height: 420px;
+        background-color: lightgray;
+    }
+
+    footer {
+        background-color: darkblue;
+        color: white;
+        height: 120px;
+        text-align: center;
+    }
+
+    .box {
+        position:absolute;
+        text-align: center;
+        border: 2px solid darkblue;
+        background-color: rgba(211, 211, 211, 0.695);
+        padding: 5px 25px;
+        margin-top: -435px;
+        margin-left: 0px;
+    }
+}
