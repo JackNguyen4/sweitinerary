@@ -8,11 +8,14 @@ import Itinerary from './Pages/Itinerary'
 import Navbar from './Pages/Navbar'
 import Contact from './Pages/Contact'
 import AboutUs from './Pages/AboutUs'
+import Login from './Pages/Login';
+import { GoogleOAuthProvider } from '@react-oauth/google';
 
 function App() {
   return (
     <Router>
       <Navbar />
+      <Login /> 
       <Routes>
         <Route exact path = '/' element = {<Home />} />
         <Route path='/Home' element={<Home/>} />
@@ -23,6 +26,7 @@ function App() {
 
       </Routes>
     </Router>
+    
   );
 }
 
