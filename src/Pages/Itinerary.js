@@ -9,8 +9,8 @@ export default function Itinerary() {
    .then(response => response.text())
    .then(text => console.log(text))
 
-    const day = 'February 14th'
-    const sixam = 'eat leaves with raff',
+    const day = ''
+    const sixam = '',
     sixthirtyam = '',
     sevenam = '',
     seventhirtyam = '',
