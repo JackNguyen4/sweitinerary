@@ -1,0 +1,50 @@
+.the {
+    
+    height: 600px;
+    background-color: lightgray;
+    text-align: center;
+    border:2px solid darkblue;
+    margin-left: 150px;
+    margin-right: 150px;
+
+
+}
+.something {
+    width:100%;
+}
+.radius {
+    width: 20px;
+
+    
+    left: 70px;
+    position:relative;
+
+    vertical-align: middle;
+}
+
+label {  
+    width: 200px;
+
+
+    left: 2px;
+    position:relative;
+
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.ok {
+}
+.typeoffood{
+}
+
+.food{
+    text-align: center;
+
+}
+.price{
+    position: relative;
+    left: 35px;
+    vertical-align: middle;
+    
+}
