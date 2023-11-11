@@ -1,0 +1,27 @@
+.out {
+    border: 2px solid darkblue;
+    width: 60%;
+}
+
+.day {
+    text-align: center;
+}
+
+.time {
+    text-align: left;
+}
+
+.mainhr {
+    height: 2px;
+    background-color: black;
+}
+
+.sixtoseven {
+    background-color: rgba(0, 0, 255, 0.188);
+    color: blue;
+}
+
+.brunch {
+    background-color: rgba(245, 129, 129, 0.504);
+    color: rgb(138, 91, 75);
+}
