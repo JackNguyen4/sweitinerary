@@ -8,8 +8,7 @@ def set_schedule(coordinates, desired_price, radius):
     schedule = {"12:00 PM": "", "1:00 PM": "", "2:00 PM": "",
                           "3::00 PM": "", "4:00 PM": "", "5:00 PM": "", "6:00 PM": "", "8:00 PM": ""}
 
-    restaurant = random.choice(get_restaurants(
-        coordinates, desired_price, radius))
+    restaurant = random.choice(get_restaurants(coordinates, desired_price, radius))
     shopping = random.choice(get_shopping(coordinates, radius))
     bar = random.choice(get_bars(coordinates, desired_price, radius))
 
@@ -18,3 +17,5 @@ def set_schedule(coordinates, desired_price, radius):
     schedule["8:00 PM"] = bar
 
     return schedule
+
+print(set_schedule("33.952095,-83.375293", 2, 5000))

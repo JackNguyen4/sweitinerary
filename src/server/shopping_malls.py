@@ -3,7 +3,7 @@ import json
 from flask import Flask, jsonify
 
 app = Flask(__name__)
-api_key = "AIzaSyCrCJALHO3GiiIdzSCOMUK3Pe31tSD8-Pk"
+api_key = "AIzaSyA4vgx9W72b65Pdn-9OMPxH_llPffwriXc"
 
 def get_shopping(coordinates,radius):
     location = coordinates
