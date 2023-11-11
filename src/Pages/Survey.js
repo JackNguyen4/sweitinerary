@@ -100,25 +100,7 @@ export default function Survey() {
             <br></br>
         </div>
             </div>
-            {/*
-            <div class='typeoffood'>
-                What type of food do you like?
-                
-            </div>
-            <div class=''>
-
-            <input type="checkbox" id="italian" name="italian" value="ITALIAN"/>
-            <label for="italian">Italian</label><br></br>
-            <input type="checkbox" id="asian" name="asian" value="ASIAN"/>
-            <label for="asian">Asian </label><br></br>
-            <input type="checkbox" id="hispanic" name="hispanic" value="HISPANIC"/>
-            <label for="hispanic">Hispanic</label><br></br>
-            <input type="checkbox" id="american" name="american" value="AMERICAN"/>
-            <label for="american">American</label><br></br>
-
-            <br></br>
-            </div>
-            */}
+            {}
             <div>
             What is your preferred price range?
             <div class='price'>
