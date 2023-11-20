@@ -12,6 +12,7 @@ export default function Navbar() {
                 <br></br>
                 <a href='/Itinerary' class='alist'>Itinerary</a>
                 <br></br>
+                <a href='/Maps' class='alist'>Maps</a>
                 <br></br>
         </div>
     )
