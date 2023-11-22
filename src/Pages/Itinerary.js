@@ -267,6 +267,9 @@ export default function Itinerary() {
                 <hr></hr>
             </div>
             <br></br>
+            <button>Save Progress</button>
+            <br></br>
+            <br></br>
             </center>
         </div>
     )
