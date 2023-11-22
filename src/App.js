@@ -5,11 +5,11 @@ import { BrowserRouter as Router, Routes, Route}
 import Home from './Pages/Home'
 import Survey from './Pages/Survey'
 import Itinerary from './Pages/Itinerary'
+import Maps from './Pages/Maps'
 import Navbar from './Pages/Navbar'
 import Contact from './Pages/Contact'
 import AboutUs from './Pages/AboutUs'
 import Login from './Pages/Login';
-import { GoogleOAuthProvider } from '@react-oauth/google';
 
 function App() {
   return (
@@ -21,6 +21,7 @@ function App() {
         <Route path='/Home' element={<Home/>} />
         <Route path='/Survey' element={<Survey/>} />
         <Route path='/Itinerary' element={<Itinerary/>} />
+        <Route path='/Maps' element={<Maps/>} />
         <Route path='/Contact' element={<Contact/>} />
         <Route path='/AboutUs' element={<AboutUs/>} />
 
