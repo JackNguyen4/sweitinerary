@@ -3,8 +3,8 @@ import { useState } from "react";
 
 function Maps(){
   const initialCenter={
-    lat:31.23,
-    lng:71.23
+    lat:33.7531,
+    lng:-84.3853
   };
   const containerStyle={
     width:'100%',
