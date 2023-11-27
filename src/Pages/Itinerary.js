@@ -267,10 +267,14 @@ export default function Itinerary() {
                 <hr></hr>
             </div>
             <br></br>
+            <a href = "https://www.uber.com/global/en/sign-in/"><button class = 'button'>Uber</button></a>
+            <br></br>
+            <br></br>
             <button>Save Progress</button>
             <br></br>
             <br></br>
             </center>
+            
         </div>
     )
 }

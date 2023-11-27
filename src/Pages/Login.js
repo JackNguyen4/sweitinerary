@@ -47,7 +47,7 @@ function Login() {
       
       { user &&
         <div>
-        <img src={user.picture}></img>
+       
         <h3>{user.name}</h3>
         </div>
       }
