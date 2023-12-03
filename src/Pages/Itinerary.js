@@ -3,11 +3,7 @@ import './Styles/Itinerary.css'
 
 export default function Itinerary() {
 
-    const [data, setData] = useState()
-
-  fetch('http://127.0.0.1:5000/parameters/48%20Baxter%20Street/Athens/GA/30602/5000/2')
-   .then(response => response.text())
-   .then(text => console.log(text))
+    
 
     const day = ''
     const sixam = '',
