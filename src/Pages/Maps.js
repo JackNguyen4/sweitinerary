@@ -8,7 +8,7 @@ function Maps(){
   };
   const containerStyle={
     width:'100%',
-    height:'400px'
+    height:'800px'
   };
   const [center,setCenter]=useState(initialCenter);
 
