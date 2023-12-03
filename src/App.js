@@ -7,8 +7,6 @@ import Survey from './Pages/Survey'
 import Itinerary from './Pages/Itinerary'
 import Maps from './Pages/Maps'
 import Navbar from './Pages/Navbar'
-import Contact from './Pages/Contact'
-import AboutUs from './Pages/AboutUs'
 import Login from './Pages/Login';
 
 function App() {
@@ -22,8 +20,6 @@ function App() {
         <Route path='/Survey' element={<Survey/>} />
         <Route path='/Itinerary' element={<Itinerary/>} />
         <Route path='/Maps' element={<Maps/>} />
-        <Route path='/Contact' element={<Contact/>} />
-        <Route path='/AboutUs' element={<AboutUs/>} />
 
       </Routes>
     </Router>

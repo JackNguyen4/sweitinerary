@@ -31,9 +31,9 @@ export default function Home() {
             <footer>
                 <br></br>
                 <br></br>
-                <a href='/Contact' class='foot'>Contact</a>
+            
                 <br></br>
-                <a href='/AboutUs'class='foot'>About Us</a>
+              
             </footer>
         </div>
     )
