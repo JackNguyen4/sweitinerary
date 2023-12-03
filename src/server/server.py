@@ -17,6 +17,6 @@ def get_schedule(street, city, state, zipcode, radius, desired_price):
 
     return json_schedule
 
-
+print(get_schedule("1745 Meadow Forest Ln","Duluth","Georgia","30097", 2, 5000))
 if __name__ == '__main__':
     app.run(debug=True)
