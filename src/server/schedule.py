@@ -18,4 +18,4 @@ def set_schedule(coordinates, desired_price, radius):
 
     return schedule
 
-print(set_schedule("33.952095,-83.375293", 2, 5000))
+print(set_schedule("34.00314,-84.08807", 2, 5000))

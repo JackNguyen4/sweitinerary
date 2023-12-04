@@ -39,4 +39,4 @@ def get_coords(street,city,state,zipcode):
     latlong = str(latitude+","+longitude)
     
     return latlong
-print(get_coords("1745 Meadow Forest Ln","Duluth","Georgia","30097"))
+#print(get_coords("1745 Meadow Forest Ln","Duluth","Georgia","30097"))
